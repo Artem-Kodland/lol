@@ -1,0 +1,11 @@
+import random
+import string
+
+def get_random_string(length):
+    letters = string.ascii_lowercase # Здесь хранятся символы ascii
+    result_str = ''
+    for i in range(length):
+        result_str += random.choice(letters)
+    return result_str
+
+print(get_random_string(110))

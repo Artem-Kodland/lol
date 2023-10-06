@@ -38,7 +38,6 @@ def get_duck_image_url():
 
 @bot.command('duck')
 async def duck(ctx):
-    '''По команде duck вызывает функцию get_duck_image_url'''
     image_url = get_duck_image_url()
     await ctx.send(image_url)
 
@@ -51,7 +50,6 @@ def get_fox_image_url():
 
 @bot.command('fox')
 async def fox(ctx):
-    '''По команде duck вызывает функцию get_duck_image_url'''
     image_url = get_fox_image_url()
     await ctx.send(image_url)
 
@@ -64,7 +62,6 @@ def get_dog_image_url():
 
 @bot.command('dog')
 async def dog(ctx):
-    '''По команде duck вызывает функцию get_duck_image_url'''
     image_url = get_dog_image_url()
     await ctx.send(image_url)
 
